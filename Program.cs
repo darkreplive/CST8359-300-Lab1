@@ -94,7 +94,7 @@ void bubbleSort(IList<string> input)
 {
     IList<string> temp = input;
     var counter = input.Count - 1;
-    for (var i = 0; i < counter; i++)
+    for (var i = 0; i < counter; i++) //https://codesnippets.fesslersoft.de/bubblesort-ilists/
     {
         for (var index = counter; index > i; index--)
         {
